@@ -35,7 +35,7 @@ var exp = (function() {
     p.tasks.slingshotGame = {
         type: 'slingshot-game',
         stimulus: slingshot.run,
-        total_shots: 1,  
+        total_shots: 1000,  
         canvas_size: [475, 900],
         ball_color: 'white',
         ball_size: 10,
