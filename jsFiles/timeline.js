@@ -13,7 +13,7 @@ var exp = (function() {
     p.inst = {}
 
     // instruction pages
-    var endMessage = `<div class='instructions' style="text-align:center">
+    var endMessage = `<div class='instructions' style='text-align:center'>
     <p>Thanks for playing! If you'd like to continue, simply refresh your browser.</p></div>`; 
 
     // combine pages into blocks
@@ -35,7 +35,7 @@ var exp = (function() {
     p.tasks.slingshotGame = {
         type: 'slingshot-game',
         stimulus: slingshot.run,
-        total_shots: 32,  
+        total_shots: 1,  
         canvas_size: [475, 900],
         ball_color: 'white',
         ball_size: 10,
